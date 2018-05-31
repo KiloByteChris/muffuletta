@@ -123,10 +123,10 @@ function muffuletta_scripts() {
 	wp_enqueue_style( 'muffuletta-style', get_stylesheet_uri() );
 
 	/* Google Fonts */
-	wp_enqueue_style( 'nunito', 'https://fonts.googleapis.com/css?family=Nunito' )
-	wp_enqueue_style( 'dosis', 'https://fonts.googleapis.com/css?family=Dosis' )
-	wp_enqueue_style( 'satisy', 'https://fonts.googleapis.com/css?family=Satisfy' )
-	wp_enqueue_style( 'courgette', 'https://fonts.googleapis.com/css?family=Courgette' )
+	wp_enqueue_style( 'nunito', 'https://fonts.googleapis.com/css?family=Nunito' );
+	wp_enqueue_style( 'dosis', 'https://fonts.googleapis.com/css?family=Dosis' );
+	wp_enqueue_style( 'satisy', 'https://fonts.googleapis.com/css?family=Satisfy' );
+	wp_enqueue_style( 'courgette', 'https://fonts.googleapis.com/css?family=Courgette' );
 
 	wp_enqueue_script( 'muffuletta-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

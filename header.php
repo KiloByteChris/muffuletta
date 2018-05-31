@@ -34,13 +34,13 @@
 				<?php
 			else :
 				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+				<p class="site-title" ><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php
 			endif;
 			$muffuletta_description = get_bloginfo( 'description', 'display' );
 			if ( $muffuletta_description || is_customize_preview() ) :
 				?>
-				<p class="site-description"><?php echo $muffuletta_description; /* WPCS: xss ok. */ ?></p>
+				<p class="site-description" id="site-description"><?php echo $muffuletta_description; /* WPCS: xss ok. */ ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
