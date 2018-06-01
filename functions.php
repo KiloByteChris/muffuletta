@@ -125,8 +125,11 @@ function muffuletta_scripts() {
 	/* Google Fonts */
 	wp_enqueue_style( 'nunito', 'https://fonts.googleapis.com/css?family=Nunito' );
 	wp_enqueue_style( 'dosis', 'https://fonts.googleapis.com/css?family=Dosis' );
-	wp_enqueue_style( 'satisy', 'https://fonts.googleapis.com/css?family=Satisfy' );
+	wp_enqueue_style( 'satisfy', 'https://fonts.googleapis.com/css?family=Satisfy' );
 	wp_enqueue_style( 'courgette', 'https://fonts.googleapis.com/css?family=Courgette' );
+
+	/* Font Aweseome */
+	wp_enqueue_style('font-awesome', 'https://use.fontawesome.com/releases/v5.0.13/css/all.css');
 
 	wp_enqueue_script( 'muffuletta-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
