@@ -406,31 +406,6 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 
-.site-title {
-	font-size: 2.2em;
-	text-align: center;
-	font-family: 'satisfy';
-	font-weight: 600;
-	margin-top: 50px;
-	margin-bottom: 0px;
-	color: #FFF;
-	text-shadow: 2px 2px #444;
-}
-
-#site-description {
-	font-family: 'courgette';
-	text-align: center;
-	font-size: 1.5em;
-	margin-top: 10px;
-	color: #FFF;
-	text-shadow: 1px 1px #444;
-}
-
-.site-title a {
-	text-decoration: none;
-	color: #FFF;
-}
-
 p {
 	margin-bottom: 1.5em;
 }
@@ -903,8 +878,52 @@ a:hover, a:active {
 --------------------------- HEADER ----------------------------
 --------------------------------------------------------------*/
 #masthead {
-	/* background-image: url("<?php bloginfo('stylesheet_directory'); ?>/images/wc_header.jpg"); */
-	background-color: #888;
+	height: auto;
+}
+
+.header-img-div {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin: 0;
+}
+
+.header-img-div img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+}
+
+.site-title {
+	font-size: 2.2em;
+	text-align: center;
+	font-family: 'satisfy';
+	font-weight: 600;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	color: #FFF;
+	text-shadow: 2px 2px #444;
+	position: absolute;
+	top: -30px;
+
+}
+
+#site-description {
+	font-family: 'courgette';
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 10px;
+	margin-bottom: -50px;
+	color: #FFF;
+	text-shadow: 1px 1px #444;
+	position: absolute;
+	top: 50px;
+}
+
+.site-title a {
+	text-decoration: none;
+	color: #FFF;
 }
 
 /*--------------------------------------------------------------

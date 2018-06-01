@@ -25,7 +25,11 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'muffuletta' ); ?></a>
 
 	<header id="masthead" class="site-header">
+
 		<div class="site-branding">
+			<div class="header-img-div">
+				<?php the_header_image_tag(); ?>
+			</div>
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
@@ -42,6 +46,7 @@
 				?>
 				<p class="site-description" id="site-description"><?php echo $muffuletta_description; /* WPCS: xss ok. */ ?></p>
 			<?php endif; ?>
+
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
