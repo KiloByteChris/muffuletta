@@ -28,7 +28,9 @@
 
 		<div class="site-branding">
 			<div class="header-img-div">
-				<?php the_header_image_tag(); ?>
+				<div class="tint-div">
+					<?php the_header_image_tag(); ?>
+				</div>
 			</div>
 			<?php
 			the_custom_logo();
@@ -50,7 +52,7 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fas fa-bars"></i><?php esc_html_e( '', 'muffuletta' ); ?></button>
+			<button class="menu-toggle" id="burger" aria-controls="primary-menu" aria-expanded="false"><i class="fas fa-bars"></i><?php esc_html_e( '', 'muffuletta' ); ?></button>
 			<?php
 			wp_nav_menu( array(
 				'theme_location' => 'menu-1',
