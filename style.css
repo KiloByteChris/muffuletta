@@ -1161,6 +1161,7 @@ footer {
 	margin-left: 20px;
 	margin-right: 20px;
 	color: #fff;
+	float: right;
 }
 
 .site-info a {
@@ -1171,6 +1172,21 @@ footer {
 	color: #fff;
 }
 
+#footer-widget {
+	background-color: #fff;
+	width: 300px;
+	margin-left: 50px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#footer-widget h2, img, p{
+	margin-bottom: 0px;
+}
+
+.weatherImg{
+	margin-bottom: -20px;
+}
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
